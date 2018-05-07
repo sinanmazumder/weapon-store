@@ -337,7 +337,15 @@
             " - $" + $("#slider-range").slider("values", 1));
     });
 
-
+   $('document').ready(function(){
+       $("html").niceScroll({
+           cursorwidth:8,
+           cursorheight:100,
+           cursorborderradius:10,
+           cursorborder:'none',
+           cursorcolor:'#878244',
+       });
+   })
 
 
 
