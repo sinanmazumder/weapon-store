@@ -88,7 +88,7 @@
               @media (max-width: 991.98px) {
                   .header {
                       height: 33rem;
-                      overflow: visible;
+                      overflow: hidden;
                   }
                   .header #sync1 .text {
                       top: 60% !important;
