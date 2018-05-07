@@ -7,6 +7,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+button:focus,
+input:focus,
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
 h1,
 h2,
 h3,
@@ -60,6 +67,9 @@ a {
     height: 100%;
     background: #878244;
     z-index: -2;
+    -ms-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
     transform: translateY(-50%);
 }
@@ -73,6 +83,9 @@ a {
     height: 100%;
     background: #878244;
     z-index: -2;
+    -ms-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+    -moz-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
     transform: translateY(-50%);
 }
@@ -621,14 +634,17 @@ a {
     z-index: -2;
     border-bottom: 1px solid #4e4b4b;
 }
+
 .header .navbar-light .navbar-toggler-icon {
     background-image: url("../images/nav.png");
 }
+
 .header .navbar-light .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.1);
     padding: 0;
 }
-.header .navbar-toggler-icon{
+
+.header .navbar-toggler-icon {
     width: 50px;
     height: 50px;
 }
@@ -1089,6 +1105,9 @@ a {
 }
 
 .who-we-are .text .box.box2 {
+    -ms-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
+    -moz-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
+    -webkit-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
     clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
     border-top: none;
     border-bottom: none;
@@ -1319,6 +1338,8 @@ a {
     width: 80px;
     margin: 0 auto;
     background: #878244;
+    -ms-clip-path: polygon(50% 0, 100% 100%, 50% 20%, 0% 100%);
+    -moz-clip-path: polygon(50% 0, 100% 100%, 50% 20%, 0% 100%);
     -webkit-clip-path: polygon(50% 0, 100% 100%, 50% 20%, 0% 100%);
     clip-path: polygon(50% 0, 100% 100%, 50% 20%, 0% 100%);
     transition: 0.3s;
@@ -1342,6 +1363,9 @@ a {
     background: #c8bfbf;
     color: #fff !important;
     font-size: 20px !important;
+    -ms-clip-path: polygon(0 0, 75% 0%, 100% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 75% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 75% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 75% 0%, 100% 100%, 0% 100%);
     transition: .5s;
 }
@@ -1358,6 +1382,9 @@ a {
     background: #c8bfbf;
     color: #fff !important;
     font-size: 20px !important;
+    -ms-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
     transition: .5s;
 }
@@ -1425,6 +1452,9 @@ a {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     line-height: 114px;
+    -ms-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
+    -moz-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
+    -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
     clip-path: polygon(20% 0, 100% 0, 80% 100%, 0% 100%);
     cursor: pointer;
     transition: .5s;
@@ -1480,6 +1510,9 @@ a {
     width: 100%;
     height: 225px;
     padding: 65px 0;
+    -ms-clip-path: polygon(0 8%, 100% 0, 115% 90%, 0% 100%);
+    -moz-clip-path: polygon(0 8%, 100% 0, 115% 90%, 0% 100%);
+    -webkit-clip-path: polygon(0 8%, 100% 0, 115% 90%, 0% 100%);
     clip-path: polygon(0 8%, 100% 0, 115% 90%, 0% 100%);
     transition: .5s;
 }
@@ -1536,6 +1569,9 @@ a {
 
 .products .box.box2 {
     border: none;
+    -ms-clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
+    -moz-clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
+    -webkit-clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
     clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
 }
 
@@ -1621,6 +1657,9 @@ a {
 .products .owl-carousel.owl-theme .content a {
     position: relative;
     display: inline-block;
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     width: 200px;
     height: 50px;
@@ -1708,6 +1747,9 @@ a {
     color: #fff !important;
     display: inline-block;
     margin-top: 70px !important;
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     width: 200px;
     height: 50px;
@@ -1777,6 +1819,9 @@ a {
     background: #c8bfbf;
     color: #fff !important;
     font-size: 20px !important;
+    -ms-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
     transition: .5s;
 }
@@ -1793,6 +1838,9 @@ a {
     background: #c8bfbf;
     color: #fff !important;
     font-size: 20px !important;
+    -ms-clip-path: polygon(24% 0px, 100% 0px, 100% 100%, 0% 100%);
+    -moz-clip-path: polygon(24% 0px, 100% 0px, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(24% 0px, 100% 0px, 100% 100%, 0% 100%);
     clip-path: polygon(24% 0px, 100% 0px, 100% 100%, 0% 100%);
     transition: .5s;
 }
@@ -1830,6 +1878,9 @@ a {
 
 .gallery .image .text {
     position: absolute;
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
     transform: scale(0);
     top: 100%;
     left: 100%;
@@ -1857,6 +1908,9 @@ a {
 }
 
 .gallery .image:hover .text {
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
     transform: scale(1);
     left: 0;
     top: 0;
@@ -1879,7 +1933,13 @@ a {
     height: 100%;
     background: #878244;
     z-index: -2;
+    -ms-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -1904,6 +1964,9 @@ a {
     height: 100px;
     text-align: center;
     font-size: 22px;
+    -ms-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
     transform: rotate(-40deg);
     padding: 22px;
     cursor: pointer;
@@ -1917,6 +1980,9 @@ a {
 
 .gallery .image .search a span {
     display: block;
+    -ms-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
     transform: rotate(35deg);
     color: #fff;
 }
@@ -1950,6 +2016,9 @@ a {
 .weapon-traning .sign-up {
     position: relative;
     padding: 50px 10px;
+    -ms-clip-path: polygon(0 0, 75% 0, 97% 100%, 0 100%);
+    -moz-clip-path: polygon(0 0, 75% 0, 97% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 75% 0, 97% 100%, 0 100%);
     clip-path: polygon(0 0, 75% 0, 97% 100%, 0 100%);
     z-index: 2;
 }
@@ -1998,6 +2067,9 @@ a {
     color: #fff !important;
     display: inline-block;
     margin-top: 22px;
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     width: 200px;
     height: 50px;
@@ -2186,6 +2258,9 @@ a {
     width: 25rem;
     padding: 40px 37px;
     color: #fff;
+    -ms-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
     -ms-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -2249,6 +2324,9 @@ a {
 }
 
 .footer .subscribe-box {
+    -ms-clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
+    -moz-clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
+    -webkit-clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
     clip-path: polygon(4% 0, 100% 0, 95% 100%, 0% 100%);
     background: #878244;
     padding: 40px 50px;
@@ -2295,6 +2373,9 @@ a {
 }
 
 .footer .email {
+    -ms-clip-path: polygon(0 0, 100% 0, 94.5% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 94.5% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 94.5% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 94.5% 100%, 0% 100%);
     width: 78%;
     padding: 13px 20px;
@@ -2304,6 +2385,9 @@ a {
 }
 
 .footer .subscribe-box button {
+    -ms-clip-path: polygon(17% 0%, 100% 0, 83% 100%, 0% 100%);
+    -moz-clip-path: polygon(17% 0%, 100% 0, 83% 100%, 0% 100%);
+    -webkit-clip-path: polygon(17% 0%, 100% 0, 83% 100%, 0% 100%);
     clip-path: polygon(17% 0%, 100% 0, 83% 100%, 0% 100%);
     background: #fff;
     border: none;
@@ -2370,6 +2454,9 @@ a {
     width: 37px;
     height: 30px;
     text-align: center;
+    -ms-clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    -moz-clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+    -webkitclip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
     clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
     padding: 2px;
     position: relative;
@@ -2502,6 +2589,9 @@ a {
 }
 
 .footer .content button {
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     background: #878244;
     color: #fff;
@@ -2651,6 +2741,9 @@ a {
 }
 
 .pricing .box {
+    -ms-clip-path: polygon(0 8.39%, 100% 0, 100% 91.49%, 0% 100%);
+    -moz-clip-path: polygon(0 8.39%, 100% 0, 100% 91.49%, 0% 100%);
+    -webkit-clip-path: polygon(0 8.39%, 100% 0, 100% 91.49%, 0% 100%);
     clip-path: polygon(0 8.39%, 100% 0, 100% 91.49%, 0% 100%);
     padding: 100px 20px;
     border: none;
@@ -2713,6 +2806,9 @@ a {
 }
 
 .pricing .box.box2 {
+    -ms-clip-path: polygon(0 0, 100% 8.39%, 100% 100%, 0 91.49%);
+    -moz-clip-path: polygon(0 0, 100% 8.39%, 100% 100%, 0 91.49%);
+    -webkit-clip-path: polygon(0 0, 100% 8.39%, 100% 100%, 0 91.49%);
     clip-path: polygon(0 0, 100% 8.39%, 100% 100%, 0 91.49%);
     border-left: none;
     border-right: none;
@@ -2797,6 +2893,9 @@ a {
 .pricing .box button {
     position: relative;
     display: inline-block;
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     width: 200px;
     height: 55px;
@@ -2965,6 +3064,9 @@ a {
 }
 
 .shop .price-slider button {
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     background: #878244;
     color: #fff;
@@ -3086,6 +3188,9 @@ a {
 .products-grid .content button {
     position: relative;
     background: transparent;
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     border: 2px solid #878244;
     text-transform: capitalize;
@@ -3183,6 +3288,9 @@ a {
 .products-list button {
     position: relative;
     background: transparent;
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     border: 2px solid #878244;
     text-transform: capitalize;
@@ -3472,6 +3580,9 @@ a {
 }
 
 .blog .comment form button {
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     background: #878244;
     color: #fff;
@@ -3639,6 +3750,9 @@ a {
 }
 
 .get-in-touch button {
+    -ms-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -moz-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+    -webkit-clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
     background: #878244;
     color: #fff;
