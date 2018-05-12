@@ -612,7 +612,7 @@ a {
 
 .header {
     position: relative;
-    overflow: hidden;
+    overflow: hidden !important;
     height: 46rem;
     z-index: 2;
 }
